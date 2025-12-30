@@ -1,6 +1,33 @@
 # neutRal
 Code for neutral models development
 
+### Explanation of the Functions:
+
+- **`simulate_neutral_grid()`**:  
+  This function runs the spatial neutral model with specified parameters. It simulates the community dynamics based on immigration, speciation, and local dispersal events, updating the grid over the given number of steps.
+
+- **`plot_neutral_grid()`**:  
+  This function generates a heatmap using `ggplot2`, where each cell's color corresponds to a species, based on the grid after the simulation.
+
+- **`calculate_diversity()`**:  
+  This function calculates three important biodiversity metrics:
+  - **Richness (S)**: The number of unique species in the grid.
+  - **Total individuals (N)**: The total number of individuals (cells occupied by species).
+  - **Shannon diversity (H)**: A measure of species diversity considering the relative abundance of each species.
+
+### Key Parameters:
+
+- **`n`**: Size of the grid (`n x n`).
+- **`steps`**: Number of iterations (steps) to simulate.
+- **`m`**: Immigration probability (how likely a new species or an immigrant species is introduced to the grid).
+- **`nu`**: Speciation probability (given immigration, the chance of introducing a new species).
+
+### Usage:
+
+1. Run the model with your desired parameters (e.g., grid size, steps, and probabilities).
+2. Visualize the final grid as a "map" of species distribution.
+3. Calculate and display the diversity metrics.
+
 ## Example usage: 
 
 ```r
