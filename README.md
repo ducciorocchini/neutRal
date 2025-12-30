@@ -1,6 +1,32 @@
 # neutRal
 Code for neutral models development
 
+## Structure of the package
+neutRal/
+├── R/
+│   ├── simulate_neutral_grid.R
+│   ├── plot_neutral_grid.R
+│   ├── calculate_diversity.R
+│   ├── simulate_competition.R
+│   ├── plot_competition_grid.R
+│   └── calculate_competition_diversity.R
+├── man/
+│   ├── simulate_neutral_grid.Rd
+│   ├── plot_neutral_grid.Rd
+│   ├── calculate_diversity.Rd
+│   ├── simulate_competition.Rd
+│   ├── plot_competition_grid.Rd
+│   └── calculate_competition_diversity.Rd
+├── tests/
+│   ├── test_simulate_neutral_grid.R
+│   ├── test_plot_neutral_grid.R
+│   ├── test_calculate_diversity.R
+│   ├── test_simulate_competition.R
+│   ├── test_plot_competition_grid.R
+│   └── test_calculate_competition_diversity.R
+├── DESCRIPTION
+└── NAMESPACE
+
 ## Explanation of the single species neutral functions:
 
 - **`simulate_neutral_grid()`**:  
