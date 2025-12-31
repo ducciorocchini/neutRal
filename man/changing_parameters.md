@@ -71,7 +71,7 @@ p_nu2 <- plot_neutral_grid(sim_nu2$grid, n, steps, m = m_fixed, nu = 0.010) +
 # -----------------------------
 ((p_m1 | p_m2) / (p_nu1 | p_nu2)) +
   plot_annotation(
-    title = "Effects of immigration (m) and speciation (ν) on spatial neutral communities",
+    # title = "Effects of immigration (m) and speciation (ν) on spatial neutral communities",
     theme = theme(plot.title = element_text(hjust = 0.5, face = "bold"))
   ) &
   theme(
