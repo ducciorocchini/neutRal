@@ -8,13 +8,8 @@ neutRal/
 │ ├── simulate_neutral_grid.R             
 │ ├── plot_neutral_grid.R                  
 │ ├── calculate_diversity.R               
-├── man/                                      # to be done
-│ ├── simulate_neutral_grid.Rd
-│ ├── plot_neutral_grid.Rd
-│ ├── calculate_diversity.Rd
-│ ├── simulate_competition.Rd
-│ ├── plot_competition_grid.Rd
-│ └── calculate_competition_diversity.Rd
+├── man/                                      
+│ ├── example.Rd
 ├── tests/                                     # to be done
 │ ├── test_simulate_neutral_grid.R
 │ ├── test_plot_neutral_grid.R
