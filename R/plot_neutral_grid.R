@@ -10,10 +10,8 @@ plot_neutral_grid <- function(grid, n, steps, m, nu) {
     labs(
       title = "Spatial Neutral Model (grid community map)",
       subtitle = bquote(
-        n == .(n) ~ "," ~
-        steps == .(steps) ~ "," ~
-        m == .(m) ~ "," ~
-        nu == .(nu)
+        n == .(n) ~ "," ~ steps == .(steps) * "\n" *
+        m == .(m) ~ "," ~ nu == .(nu)
       ),
       x = "X",
       y = "Y",
@@ -22,6 +20,7 @@ plot_neutral_grid <- function(grid, n, steps, m, nu) {
     theme_minimal() +
     theme(
       legend.position = "none",
-      plot.title = element_text(face = "bold")
+      plot.title = element_text(face = "bold"),
+      plot.subtitle = element_text(size = 10)
     )
 }
