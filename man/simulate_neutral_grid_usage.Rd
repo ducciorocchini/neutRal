@@ -1,4 +1,3 @@
-
 # Run simulation
 sim <- simulate_neutral_grid(
   n = 80,
