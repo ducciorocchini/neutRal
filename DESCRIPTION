@@ -1,0 +1,17 @@
+Package: neutRal
+Type: Package
+Title: Spatially Explicit Neutral Community Simulations
+Version: 0.1.0
+Author: Duccio Rocchini
+Maintainer: Duccio Rocchini <duciorocchini@gmail.com>
+Description: Tools for simulating spatially explicit neutral community dynamics,
+    visualizing species distributions, and calculating biodiversity metrics.
+    The package implements grid-based neutral models with immigration,
+    speciation, and local dispersal.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    graphics,
+    stats
+RoxygenNote: 7.3.2
