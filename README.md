@@ -5,12 +5,9 @@ Code for neutral models development
 ```
 neutRal/
 ├── R/
-│ ├── simulate_neutral_grid.R                 # single species
-│ ├── plot_neutral_grid.R                     # single species 
-│ ├── calculate_diversity.R                   # single species
-│ ├── simulate_competition.R                  # species interaction
-│ ├── plot_competition_grid.R                 # species interaction 
-│ └── calculate_competition_diversity.R       # species interaction
+│ ├── simulate_neutral_grid.R             
+│ ├── plot_neutral_grid.R                  
+│ ├── calculate_diversity.R               
 ├── man/                                      # to be done
 │ ├── simulate_neutral_grid.Rd
 │ ├── plot_neutral_grid.Rd
