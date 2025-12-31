@@ -1,5 +1,5 @@
 # neutRal
-Code for neutral models development
+The neutRal package enables users to simulate spatially explicit neutral models of community dynamics, visualize outcomes, and compute basic biodiversity metrics.
 
 ## Structure of the package
 ```
