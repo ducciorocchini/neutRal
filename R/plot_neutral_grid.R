@@ -9,13 +9,11 @@ plot_neutral_grid <- function(grid, n, steps, m, nu) {
     coord_equal() +
     labs(
       title = "Spatial Neutral Model (grid community map)",
-      subtitle = bquote(
-        n == .(n) ~ "," ~ steps == .(steps) * "\n" *
-        m == .(m) ~ "," ~ nu == .(nu)
+      subtitle = paste0(
+        "n = ", n, ", steps = ", steps, "\n",
+        "m = ", m, ", \u03BD = ", nu
       ),
-      x = "X",
-      y = "Y",
-      fill = "Species"
+      x = "X", y = "Y", fill = "Species"
     ) +
     theme_minimal() +
     theme(
