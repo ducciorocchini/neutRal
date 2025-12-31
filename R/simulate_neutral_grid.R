@@ -1,4 +1,13 @@
-# Function to simulate a spatially explicit neutral model
+#' Simulate spatially explicit neutral community dynamics
+#'
+#' @param n Number of cells along each side of the grid
+#' @param steps Number of simulation steps
+#' @param m Immigration probability
+#' @param nu Speciation probability (conditional on immigration)
+#' @param seed Random seed
+#' @param snapshot_every Interval for saving snapshots
+#' @return A list containing the final grid, optional snapshots, and parameters
+#' @export
 simulate_neutral_grid <- function(n = 80, steps = 200000,
                                   m = 0.01, nu = 0.001,
                                   seed = 1, snapshot_every = NULL) {
