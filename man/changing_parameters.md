@@ -78,24 +78,17 @@ p_nu2 <- plot_neutral_grid(sim_nu2$grid, n, steps, m = m_fixed, nu = 0.010) +
     plot.caption = element_text(hjust = 0.5, size = 10),
     plot.title = element_text(face = "bold")
   )
-Interpretation (what to expect)
-Varying 
-𝑚
-m (top row) typically changes the degree of spatial mixing/clustering.
+```
 
-Varying 
-𝜈
-ν (bottom row) often changes richness 
-𝑆
-S and Shannon 
-𝐻
-′
-H 
-′
-  more
-strongly than the large-scale geometry of patches in the final map.
+## Interpretation (what to expect)
 
-Because the diversity metrics are printed in each panel (caption line), the effect of 
-𝜈
-ν
-is visible even when spatial patterns appear similar.
+- Varying the immigration probability **\(m\)** (top row) typically alters the degree of
+  spatial mixing and clustering within the simulated community.
+
+- Varying the speciation probability **\(\nu\)** (bottom row) primarily affects
+  **species richness (\(S\))** and **Shannon diversity (\(H'\))**, often more strongly
+  than it alters the large-scale geometry of spatial patches in the final map.
+
+Because biodiversity metrics are reported directly within each panel (as caption text),
+the effect of **\(\nu\)** remains evident even when the spatial configurations appear
+visually similar.
