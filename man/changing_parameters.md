@@ -18,6 +18,7 @@ These biodiversity metrics are calculated from the **same final grid** that is v
 
 ```r
 # Load required libraries
+library(neutRal)
 library(ggplot2)
 library(patchwork)
 
