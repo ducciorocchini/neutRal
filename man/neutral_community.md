@@ -9,6 +9,10 @@ quantifying its biodiversity.
 ### Code: simulate → plot → calculate diversity
 
 ```r
+
+library(neutRal)
+library(ggplot2)
+
 # Run simulation
 sim <- simulate_neutral_grid(
   n = 80,
