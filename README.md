@@ -1,6 +1,8 @@
 # neutRal
 The neutRal package enables users to simulate spatially explicit neutral models of community dynamics, visualize outcomes, and compute basic biodiversity metrics.
 
+<img width="1024" height="1024" alt="b46da778-8af3-43ac-8d00-34f5e8ceacbc" src="https://github.com/user-attachments/assets/da995f54-aa8a-41b1-b39d-8de92e0c99bb" />
+
 ## Structure of the package
 ```
 neutRal/
