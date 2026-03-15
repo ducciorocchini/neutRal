@@ -1,4 +1,8 @@
 # neutRal
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19030070.svg)](https://doi.org/10.5281/zenodo.19030070)
+![R](https://img.shields.io/badge/language-R-blue)
+
 The neutRal package enables users to simulate spatially explicit neutral models of community dynamics, visualize outcomes, and compute basic biodiversity metrics.
 
 <p align="center">
