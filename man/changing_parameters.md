@@ -1,4 +1,4 @@
-## Exploring the effects of immigration (m) and speciation (ν), with richness and Shannon diversity
+# Example simulations using the `neutRal` package
 
 This example generates **four neutral community simulations** and displays their final spatial
 configurations in a **2×2 layout**:
