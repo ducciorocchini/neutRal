@@ -86,9 +86,7 @@ p_nu2 <- plot_neutral_grid(sim_nu2$grid, n, steps, m = m_fixed, nu = 0.010) +
 - Varying the immigration probability **\(m\)** (top row) typically alters the degree of
   spatial mixing and clustering within the simulated community.
 
-- Varying the speciation probability **\(\nu\)** (bottom row) primarily affects
-  **species richness (\(S\))** and **Shannon diversity (\(H'\))**, often more strongly
-  than it alters the large-scale geometry of spatial patches in the final map.
+- A lower effect in this simulation is expected varying the speciation probability **\(\nu\)** (bottom row).
 
 Because biodiversity metrics are reported directly within each panel (as caption text),
 the effect of **\(\nu\)** remains evident even when the spatial configurations appear
